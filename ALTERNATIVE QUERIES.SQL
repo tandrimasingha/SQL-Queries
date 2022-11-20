@@ -1,4 +1,4 @@
-P(R) represents a pattern drawn by Julia in R rows. The following pattern represents P(5):
+1.) P(R) represents a pattern drawn by Julia in R rows. The following pattern represents P(5):
 
 * * * * * 
 * * * * 
@@ -11,7 +11,7 @@ SOL>
 set @i = 21;
 select repeat('* ', @i := @i-1) from information_schema.tables;
 
-P(R) represents a pattern drawn by Julia in R rows. The following pattern represents P(5):
+2.) P(R) represents a pattern drawn by Julia in R rows. The following pattern represents P(5):
 
 * 
 * * 
